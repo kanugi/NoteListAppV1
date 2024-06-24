@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   cardDesc: {
-    color: "#fff",
+    color: "#000000",
   },
   buttons: {
     marginTop: 10,
