@@ -28,7 +28,7 @@ const AddNote = ({ setCurrentPage, addNote }) => {
       />
       <View style={styles.spacerTop}>
         <CustomButton
-          backgroundColor="#247881"
+          backgroundColor="#1d7d1b"
           color="#fff"
           text="Simpan"
           width="100%"

@@ -47,7 +47,7 @@ const EditNote = ({ setCurrentPage, editNote, noteEdit }) => {
       </View>
       <View style={styles.spacerTop}>
         <CustomButton
-          backgroundColor="#fff"
+          backgroundColor="#DDDDDD"
           color="#000"
           text="Kembali ke Home"
           width="100%"
@@ -64,14 +64,14 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "column",
     padding: 20,
-    backgroundColor: "#022C43",
+    backgroundColor: "white",
   },
   pageTitle: {
     marginTop: 20,
     fontSize: 20,
     fontWeight: "700",
     textAlign: "center",
-    color: "#fff",
+    color: "black",
   },
   spacerTop: {
     marginTop: 30,

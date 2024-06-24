@@ -34,11 +34,13 @@ const NoteCard = ({ item, setCurrentPage, deleteNote, setNoteEdit }) => (
 
 const Home = ({ noteList, setCurrentPage, deleteNote, setNoteEdit }) => (
   <View style={styles.container}>
+    <Text style={styles.pageTitle}>Note List</Text>
     <CustomButton
       backgroundColor="#DDD"
       color="#203239"
       text="Tambahkan Note"
       width="100%"
+      fontSize={16}      
       onPress={() => {
         setCurrentPage('add')
       }}
@@ -65,6 +67,15 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     padding: 20,
+    paddingTop: 60,
+  },
+  pageTitle: {
+    marginTop: 20,
+    fontSize: 20,
+    fontWeight: '700',
+    textAlign: 'center',
+    color: '#203239',
+    paddingBottom: 20,
   },
   card: {
     padding: 10,
